@@ -1,0 +1,159 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+    width: 49.5rem;
+    height: 40rem;
+}
+#border{
+    padding: .5rem;
+    background-color: green;
+}
+
+#content{
+    background-image: url("./images/JimHenson.jpg");
+    background-size: cover;
+    display: inline-block;
+    width: 48.5rem;
+    height: 50rem;
+}
+
+.page-title{
+    text-decoration: underline;
+    color: azure;
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.navigation-box{
+    width: 49rem;
+    height: 40rem;
+}
+
+.catalog-form{
+    width: 49rem;
+    height: 40rem;
+}
+
+.order-form{
+    width: 49rem;
+    height: 40rem;
+}
+
+.links-div{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border: .1rem solid black;
+    margin: 15rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color:  rgb(211,211,211, 0.8);
+}
+
+.catalog-forms-div{
+    display:inline-block;
+    border: .5rem solid azure;
+    margin: 2rem;
+    padding: 1rem;
+    width: 30rem;
+    height: 35rem;
+    background-color:  rgba(255, 255, 255, 0.85);
+}
+
+.order-forms-div{
+    display:inline-block;
+    border: .5rem solid azure;
+    margin: 2rem;
+    padding: 1rem;
+    width: 35rem;
+    height: 20rem;
+    background-color:  rgba(255, 255, 255, 0.85);
+}
+
+#item-choice{
+    width: 10rem;
+    border: .2rem solid red
+}
+
+#max-cost{
+    width:5rem;
+}
+
+#available-on-campus{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#available-online{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#email{
+    width: 200px;
+}
+
+.button{
+    border: .3rem double black;
+    border-radius: .5rem;
+    width: 8rem;
+    height: 3rem;
+}
+
+.credit-card{
+    width: 3rem;
+}
+
+.underlined-text{
+    text-decoration: underline;
+}
+
+.shipping-input{
+    width: 10rem;
+}
+
+input{
+    border: .2rem solid red
+}
+
+p{
+    font-size: 25px;
+}
+
+a{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    color: brown;
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+a:visited{
+    color: beige;
+}
+
+#footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #add8e6;
+    padding: .5rem;
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: .5rem groove silver;
+    width: 50rem;
+    height: 4rem;
+    font-size: 25px;
+}

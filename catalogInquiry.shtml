@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Catalog Inquiry</title>
+</head>
+<body>
+    <div id="border">
+        <div id="content">    
+            <h1 class="page-title">Catalog Inquiry</h1>
+
+            <form class="catalog-form" action=" http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+                    <div class="catalog-forms-div">
+                        <p>
+                            <span class="underlined-text">Item Category</span> 
+                            <select name="item-choice" id="item-choice" required autofocus>
+                                <option value="" disabled selected label=" "></option>
+                                <option value="clothes">clothes</option>
+                                <option value="books">books</option>
+                                <option value="music">music</option>
+                                <option value="food">food</option>
+                                <option value="other">other</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            <span class="underlined-text">Maximum Cost ($)</span> 
+                            <input id="max-cost" type="number" name="maximumCost" min="1" max="1000" step="5" value="1">
+                        </p>
+
+                        <p>
+                            <input id="available-on-campus" type="checkbox" name="availableOnCampus">
+                            <span class="underlined-text">Available on Campus</span> 
+                        </p>
+
+                        <p>
+                            <input id="available-online" type="checkbox" name="availableOnline" checked>
+                            <span class="underlined-text">Available Online</span> 
+                        </p>
+
+                        <p>
+                            <span class="underlined-text">Additional Information</span> 
+                            <br>
+                            <textarea name="info" id="additional-info" cols="50" rows="10"></textarea>
+                        </p>
+
+                        <p>
+                            <span class="underlined-text">Contact Email Address:</span> 
+                            <input type="text" id="email" name="email" placeholder="example@terpmail.umd.edu">
+                        </p>
+
+                        <input type="submit" value="Submit Inquiry" class="button">
+                        <input type="reset" value="Clear" class="button">
+
+                    </div>
+            </form>
+        </div>
+
+        <div id="footer-container">
+            <!--#include virtual="footer.shtml"-->
+        </div>
+    </div>
+</body>
+</html>

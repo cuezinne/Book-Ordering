@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Terp Store</title>
+</head>
+<body>
+    <div id="border">
+        <div id="content">    
+            <h1 class="page-title">Terp Store</h1>
+
+            <div class="navigation-box">
+                    <div class="links-div">
+                        <a href="./catalogInquiry.shtml">Catalog Inquiry</a>
+                        <a href="./placingOrder.shtml">Placing Order</a>
+                    </div>
+            </div>
+        </div>
+
+        <div id="footer-container">
+            <!--#include virtual="footer.shtml"-->
+        </div>
+    </div>
+</body>
+</html>
